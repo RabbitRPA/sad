@@ -32,7 +32,7 @@ def cat_dog(str= ''):
             ile += 1
     return ile
 """
-
+"""
 Id = {
     0: 1,
     1: 3,
@@ -64,3 +64,10 @@ while how_may > 0:
     else:
         print("N") 
 
+"""
+
+import sys
+
+string = str(input())
+result = string.title().replace(" ", "")
+print(result)
