@@ -74,18 +74,17 @@ result = string.title().replace(" ", "")
 print(result)
 
 """
-
-def cat_dog(str= ''):
-    cat = 0
-    dog = 0
-
-    for i in range(len(str)):
-        if str[i:i+3] == "cat":
-            cat += 1
-        if str[i:i+3] == "dog":
-            dog += 1
-  
-        
-    return cat == dog
+def sum67(nums):
+    total = 0
+    found6 = False
+      
+    for i in range(len(nums)):
+        if nums[i] == 6:
+            found6 = True
+        if not found6:
+            total += nums[i]
+        if nums[i] == 7 and found6:
+            found6 = False
             
+    return total
   
