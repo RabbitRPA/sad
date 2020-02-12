@@ -89,7 +89,7 @@ def sum67(nums):
             
     return total
     """
-
+"""
     def print_formatted(number):
     N = number
     wynik = []
@@ -110,25 +110,20 @@ def sum67(nums):
         else: new = "  "
         print(i[0],"",i[1],"",str(i[2])+new+str(i[3]))
 
-print(print_formatted(20))def print_formatted(number):
-    N = number
-    wynik = []
-    
-    koncowe = list()
-    for i in range(1, number+1):
-        wynik.clear()
-        wynik.append(i)
-        wynik.append(oct(i)[2:])
-        wynik.append(hex(i)[2:].upper())
-        wynik.append(bin(i)[2:])
-        koncowe.append(list(wynik))
-
-    for i in koncowe:
-        dlug = ""
-        if int(i[3]) %10 == 0 :
-            new = " "
-        else: new = "  "
-        print(i[0],"",i[1],"",str(i[2])+new+str(i[3]))
-
 print(print_formatted(20))
-  
+"""
+
+
+def DNA_strand(dna):
+    cos = []
+    for i in dna:
+        if i =="G":
+            cos.append("C")
+        elif i == "C":
+            cos.append("G")
+        if i == "T":
+            cos.append("A")
+        elif i == "A":
+            cos.append("T")
+    return "".join(cos)
+
