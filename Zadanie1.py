@@ -113,7 +113,7 @@ def sum67(nums):
 print(print_formatted(20))
 """
 
-
+"""
 def DNA_strand(dna):
     cos = []
     for i in dna:
@@ -126,4 +126,10 @@ def DNA_strand(dna):
         elif i == "A":
             cos.append("T")
     return "".join(cos)
+    """
+
+
+    for i in people:
+     for x in people[i]:
+        print(people[i][x])
 
