@@ -129,7 +129,8 @@ def DNA_strand(dna):
     """
 
 
-    for i in people:
-     for x in people[i]:
-        print(people[i][x])
+for id, dic in people.items():
+    print("ID", id)
+    for key in dic:
+        print(key, dic[key])
 
