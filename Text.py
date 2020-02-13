@@ -23,3 +23,11 @@ peopel1 = [('IcFDG2bO9AYDF651DoyH', {'name': 'John', 'age': 27, 'sex': 'Male'}),
  ('KQ4bir3y4tlkbG69I7zq', {'name': 'Marie', 'age': 42, 'sex': 'Female'}),
  ('94cp4hsyZP2BnCh4D34z', {'name': 'Agness', 'age': 25, 'sex': 'Female'}),
  ('Vr4wRdkljeEs46Czxo54', {'name': 'Chiara', 'age': 17, 'sex': 'Male'})]
+
+
+
+
+    print("1. Dodaj definicję")
+    print("2. Szukaj definicję")
+    print("3. Usuń definicję")
+    print("4. Zakończ")
